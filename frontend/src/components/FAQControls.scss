@@ -1,0 +1,16 @@
+@import "./Utilities/Variables.scss";
+
+.faqcontrols {
+	.subheader {
+		height: 55px;
+		width: 100%;
+		background: $accent-color;
+		border-top: 2px inset rgba(0,0,0,0.2);
+		margin-bottom: 40px;
+
+		.searchcontrols {
+			height: 30px;
+			margin-top: 9px;
+		}
+	}
+}

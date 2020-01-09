@@ -1,0 +1,30 @@
+@import "./Utilities/Variables.scss";
+
+.input {
+	height: 35px;
+	width: 450px;
+	display: inline-block;
+	float: left;
+
+	input {
+		height: 100%;
+		width: 100%;
+		background: none;
+		font-size: 18px;
+		line-height: 35px;
+		padding: 2px 0px;
+		outline: none;
+		border: none;
+		border-bottom: 2px solid #fff;
+		color: #fff;
+	}
+	input::placeholder {
+		color: rgba(255,255,255,0.7);
+	}
+	input:not(:focus) {
+		border-bottom: 2px solid rgba(255,255,255,0.7)
+	}
+	input:focus::placeholder {
+		color: #fff;
+	}
+}

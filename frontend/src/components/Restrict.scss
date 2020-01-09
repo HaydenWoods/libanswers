@@ -1,0 +1,15 @@
+@import './Utilities/Variables.scss';
+
+.restrict {
+  width: $restrictWidth;
+  margin: 0 auto;
+}
+.restrict.fillHeight {
+	height: 100%;
+}
+
+@media screen and (max-width: calc(#{$restrictWidth} + (#{$restrictPadding} * 2))) {
+  .restrict {
+    width: calc(100% - calc(#{$restrictPadding} * 2)) !important;
+  }
+}

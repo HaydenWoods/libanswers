@@ -1,0 +1,70 @@
+@import "./Utilities/Variables.scss";
+
+/*
+	___ _   ___    _    ___ ___ _____ 
+ | __/_\ / _ \  | |  |_ _/ __|_   _|
+ | _/ _ | (_) | | |__ | |\__ \ | |  
+ |_/_/ \_\__\_\ |____|___|___/ |_|  
+																																											 
+*/
+
+.faq-list-container {
+	width: 100%;
+
+	.topiccontrols {
+		width: 250px;
+		margin-right: 25px;
+		height: 100%;
+		display: inline-block;
+		float: left;
+
+		h2 {
+			font-size: 24px;
+			font-family: $raleway;
+			color: #000;
+			padding-bottom: 15px;
+		}
+
+		ul {
+			list-style: none;
+
+			li {
+				height: 20px;
+				padding: 4px 0px;
+				cursor: pointer;
+		
+				.checkbox {
+					margin-right: 10px;
+				}
+
+				p {
+					display: inline-block;
+					font-size: 16px;
+					font-weight: 300;
+					line-height: 20px;
+				}
+			}
+			li:first-child {
+				padding-top: 0px;
+			}
+			li:last-child {
+				padding-bottom: 0px;
+			}
+		}
+	}
+
+	.faq-list {
+		width: 100%;
+		display: inline-block;
+
+		> h1 {
+			font-size: 38px;
+			font-weight: 300;
+			font-family: $raleway;
+			padding: 0px 0px 10px 0px;
+			margin-bottom: 25px;
+			border-bottom: 1px solid #ccc;
+		}
+	}
+}
+

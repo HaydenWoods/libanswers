@@ -1,0 +1,54 @@
+@import "./Utilities/Variables.scss";
+
+.pagecontrols {
+	height: 30px;
+	width: 100%;
+	margin-bottom: 25px;
+	text-align: center;
+
+	.center {
+		display: inline-block;
+	}
+	.page-button {
+		height: calc(100% - 2px);
+		min-width: 18px;
+		display: inline-block;
+		margin-right: 5px;
+		margin-left: 5px;
+		cursor: pointer;
+
+		p {
+			font-size: 20px;
+			font-weight: 300;
+			line-height: 30px;
+			text-align: center;
+			color: #000;
+		}
+		i {
+			border-width: 0px 2px 2px 0px;
+			padding: 5px;
+			border-color: #000;
+			margin-top: 7px;
+		}
+	}
+	.page-button:hover {
+		border-bottom: 2px solid $accent-color;
+	}
+	.page-button.current {
+		border-bottom: 2px solid $accent-color;
+	}
+	.page-button.prev {
+		display: inline-block;
+		float: left;
+	}
+	.page-button.next {
+		display: inline-block;
+		float: right;
+	}
+	.page-button.prev:hover {
+		border: none;
+	}
+	.page-button.next:hover {
+		border: none;
+	}
+}

@@ -1,0 +1,80 @@
+@import './Utilities/Variables.scss';
+
+#header {
+	width: 100%;
+	position: relative;
+	background: #fff;
+}
+
+#header::before {
+	content: '';
+	height: 6px;
+	width: 100%;
+	background: $accent-color;
+	position: absolute;
+	top: 0; left: 0;
+	border-bottom: 2px inset rgba(0,0,0,0.2);
+}
+
+#header #nav-bar {
+	height: 82px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 6px;
+}
+
+#header #nav-bar a {
+	color: #000;
+	text-decoration: none;
+}
+
+#header #nav-bar .nav-logo {
+	height: 75px;
+	margin-top: calc((82px - 75px) / 2);
+	display: inline-block;
+	float: left;
+	padding-right: 50px;
+}
+#header #nav-bar .nav-logo img {
+	height: calc(100% - 16px);
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#header #nav-bar .nav-item {
+	height: 100%;
+	min-width: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	float: left;
+}
+#header #nav-bar a:first-child  .nav-item {
+	padding-left: 0px;
+}
+#header #nav-bar .nav-item:hover p {
+	text-decoration: underline;
+}
+
+#header #nav-bar .nav-item p {
+	font-size: 18px;
+	line-height: 82px;
+	text-align: center;
+	font-weight: 300;
+	text-shadow: 0 0 0 transparent, 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+#header #sub-header {
+	height: 40px;
+	width: 100%;
+	background: #8F052A;
+	position: relative;
+}
+#header #sub-header::before {
+	content: '';
+	position: absolute;
+	top: 0; left: 0;
+	height: 2px;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}

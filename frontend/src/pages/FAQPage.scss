@@ -1,0 +1,136 @@
+@import '../components/Utilities/Variables.scss';
+
+/*
+	______      ____     _____        _____ ______ 
+ |  ____/\   / __ \   |  __ \ /\   / ____|  ____|
+ | |__ /  \ | |  | |  | |__) /  \ | |  __| |__   
+ |  __/ /\ \| |  | |  |  ___/ /\ \| | |_ |  __|  
+ | | / ____ | |__| |  | |  / ____ | |__| | |____ 
+ |_|/_/    \_\___\_\  |_| /_/    \_\_____|______|
+																								 
+*/
+
+.faq-page .question {
+	font-size: 32px;
+	color: #000;
+	font-weight: 300;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px #ccc solid;
+	margin: 40px 0px 25px 0px;
+}
+
+.faq-page .answer {
+	width: 100%;
+}
+
+.faq-page .answer h3 {
+	font-size: 24px;
+	padding: 40px 0 0 0;
+}
+
+.faq-page .answer a {
+	color: $accent-color !important;
+}
+
+.faq-page .answer p {
+	padding: 5px 0px 5px 0px;
+}
+
+.faq-page .answer p, .faq-page .answer p span {
+	font-size: 18px !important; 
+	line-height: 26px;
+	font-weight: 300;
+}
+
+.faq-page .answer ol,
+.faq-page .answer ul {
+	padding: 20px 0 0 30px;
+}
+
+.faq-page .answer li {
+	font-size: 18px;
+	font-weight: 300;
+	padding: 8px 0px 8px 0px;
+}
+
+.faq-page .answer img {
+	padding: 16px 0;
+}
+
+.faq-page .answer span a {
+	font-weight: 400;
+}
+.faq-page .answer span a:link, .faq-page .answer span a:visited  {
+	color: var(--accent-color);
+}
+.faq-page .answer span a:hover {
+	color: var(--dark-accent-color);
+}
+
+.faq-page .answer li span {
+	font-size: 18px !important; 
+	line-height: 26px;
+	font-weight: 300;
+}
+
+.faq-page .answer ul {
+	margin: 0px 0px 0px 40px;
+}
+
+.faq-page .answer h1 {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 300;
+	padding-top: 20px;
+}
+
+/*
+		_   _  _ _____      _____ ___   ___ ___   ___ _____ ___ ___ 
+	 /_\ | \| / __\ \    / | __| _ \ | __/ _ \ / _ |_   _| __| _ \
+	/ _ \| .` \__ \\ \/\/ /| _||   / | _| (_) | (_) || | | _||   /
+ /_/ \_|_|\_|___/ \_/\_/ |___|_|_\ |_| \___/ \___/ |_| |___|_|_\
+																																																				 
+*/
+
+.answer-footer {
+	width: 100%;
+	padding: 10px 0px 0px 0px;
+	margin: 40px 0px 10px 0px;
+	border-top: 1px #ccc solid;
+}
+
+.answer-footer .info-bar {
+	height: 20px;
+	width: 100%;
+}
+
+.answer-footer .info-bar .info-item {
+	height: 100%;
+	min-width: 20px;
+	padding: 0px 10px 0px 10px;
+	display: inline-block;
+	float: left;
+}
+.answer-footer .info-bar .info-item:first-child {
+	padding: 0px 10px 0px 0px;
+}
+.answer-footer .info-bar .info-item:last-child {
+	padding: 0px 0px 0px 10px;
+}
+
+.answer-footer .info-bar .info-item p {
+	height: 100%;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.answer-footer .info-bar .info-item .votes {
+	.up, .down {
+		display: inline-block;
+		height: 20px;
+		width: 20px;
+		background: #000;
+		margin-right: 5px;
+	}
+}

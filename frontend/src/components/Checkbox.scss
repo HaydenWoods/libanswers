@@ -1,0 +1,30 @@
+@import "./Utilities/Variables.scss";
+
+.checkbox {
+	height: 16px;
+	width: 16px;
+	border: 1px solid #ccc;
+	background: transparent;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+
+	.check {
+		height: 8px;
+		width: 8px;
+		background: #bbb;
+		position: absolute;
+		top: calc(50% - 4px); left: calc(50% - 4px);
+		transform: translateX(-50%), translateY(-50%);
+		transition: transform 0.1s, opacity 0.05s;
+	}
+	.check.on {
+		opacity: 1;
+		transform: scale(100%);
+	}
+	.check.off {
+		opacity: 0;
+		transform: scale(0%);
+	}
+}

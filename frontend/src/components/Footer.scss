@@ -1,0 +1,22 @@
+@import "./Utilities/Variables.scss";
+
+/*
+	______ ____   ____ _______ ______ _____  
+ |  ____/ __ \ / __ |__   __|  ____|  __ \ 
+ | |__ | |  | | |  | | | |  | |__  | |__) |
+ |  __|| |  | | |  | | | |  |  __| |  _  / 
+ | |   | |__| | |__| | | |  | |____| | \ \ 
+ |_|    \____/ \____/  |_|  |______|_|  \_\
+																					 
+*/
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: #f2f2f2;
+	border-top: 1px solid #ccc
+
+	
+}
